@@ -7,7 +7,7 @@ from urllib.parse import urljoin
 import argparse
 import matplotlib.pyplot as plt
 import funs
-my_parser = argparse.ArgumentParser(description='List the content of a folder')
+my_parser = argparse.ArgumentParser(description='find js files in urls')
 unique_js_files = []
 
 # Add the arguments
